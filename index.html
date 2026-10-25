@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SKSVMACET — a future-facing engineering education experience." />
+    <title>SKSVMACET | Engineering for What’s Next</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <div id="legacy-static">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="notice-bar" role="region" aria-label="Featured announcement">
+      <div class="notice-bar__inner shell">
+        <span class="notice-bar__label"><span class="pulse"></span> Latest</span>
+        <a href="#admissions" id="notice-text">Admissions for 2026–27: begin your journey with SKSVMACET</a>
+        <a class="notice-bar__action" href="#events">View updates <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="utility-bar shell">
+        <p>CET Code <strong>E–134</strong><span></span>COMEDK Code <strong>E–128</strong></p>
+        <div class="utility-bar__links">
+          <a href="tel:+919448120344">+91 94481 20344</a>
+          <a href="mailto:info@agadiengcollege.com">info@agadiengcollege.com</a>
+          <a href="#alumni">Alumni</a>
+        </div>
+      </div>
+      <div class="nav-wrap">
+        <div class="shell nav-row">
+          <a class="brand" href="#top" aria-label="SKSVMACET home">
+            <img src="https://agadiengcollege.com/wp-content/uploads/2024/02/clg-logo.png" alt="SKSVMACET" />
+            <span class="brand__text">
+              <strong>SKSVMACET</strong>
+              <small>Engineering College</small>
+            </span>
+          </a>
+
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+            <span class="sr-only">Open navigation</span>
+            <span></span><span></span><span></span>
+          </button>
+
+          <nav id="primary-navigation" class="main-nav" aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="#programmes">Programmes</a>
+            <a href="#academics">Academics</a>
+            <a href="#library">Library</a>
+            <a href="#campus">Campus life</a>
+            <a href="#placements">Placements</a>
+            <a href="#events">News &amp; events</a>
+          </nav>
+
+          <a class="button button--nav" href="#admissions">Apply now <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-label="Featured announcement">
+        <div class="hero__slides" aria-live="polite"></div>
+        <div class="shell hero__content">
+          <div class="hero__eyebrow"><span></span><p id="hero-kicker">Admissions · 2026–27</p></div>
+          <h1 id="hero-title">Build a future<br /><em>that moves India.</em></h1>
+          <p id="hero-copy">An education that puts curiosity in motion, connects learning to the real world, and gives every ambition room to grow.</p>
+          <div class="hero__actions">
+            <a class="button button--light" id="hero-primary-link" href="#admissions">Explore admissions <span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link--light" id="hero-secondary-link" href="#programmes">Discover programmes <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="shell hero__footer">
+          <div class="hero__progress" role="tablist" aria-label="Hero announcements">
+            <button class="hero-dot is-active" role="tab" aria-selected="true" aria-label="Show slide 1"></button>
+            <button class="hero-dot" role="tab" aria-selected="false" aria-label="Show slide 2"></button>
+            <button class="hero-dot" role="tab" aria-selected="false" aria-label="Show slide 3"></button>
+          </div>
+          <div class="hero__caption"><span id="hero-counter">01</span><i></i><span>03</span></div>
+          <a class="hero__news-link" href="#events">All announcements <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="event-strip" id="events" aria-labelledby="event-strip-title">
+        <div class="shell event-strip__layout">
+          <div class="event-strip__intro">
+            <p class="overline">Happenings at SKSVMACET</p>
+            <h2 id="event-strip-title">Know what’s <em>next.</em></h2>
+            <a class="text-link" href="#all-updates">View all updates <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="event-list" id="event-list"></div>
+        </div>
+      </section>
+
+      <section class="intro-section shell" id="about">
+        <div class="intro-section__headline">
+          <p class="overline">A learning culture with purpose</p>
+          <h2>Where <em>ambition</em> meets the confidence to make things happen.</h2>
+        </div>
+        <div class="intro-section__copy">
+          <p>SKSVMACET equips students with the technical depth, collaborative mindset and human perspective needed to solve meaningful problems.</p>
+          <a class="text-link" href="#academics">Why choose SKSVMACET <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="impact-band" aria-label="College highlights">
+        <div class="shell impact-band__grid">
+          <article><strong>7</strong><span>UG engineering<br />programmes</span></article>
+          <article><strong>40L</strong><span>Institutional scholarships<br />each year</span></article>
+          <article><strong>25+</strong><span>Years shaping<br />engineering careers</span></article>
+          <article><strong>100%</strong><span>Student-centred<br />learning experience</span></article>
+        </div>
+      </section>
+
+      <section class="programmes-section shell" id="programmes">
+        <div class="section-heading">
+          <div>
+            <p class="overline">Study with us</p>
+            <h2>Find the field that<br /><em>fires you up.</em></h2>
+          </div>
+          <a class="button button--outline" href="#all-programmes">All programmes <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="programme-grid">
+          <a class="programme-card programme-card--feature" href="department.html?dept=cse">
+            <span class="programme-card__image programme-card__image--cse"></span>
+            <span class="programme-card__shade"></span>
+            <span class="programme-card__content">
+              <small>01</small>
+              <strong>Computer Science<br />&amp; Engineering</strong>
+              <i aria-hidden="true">↗</i>
+            </span>
+          </a>
+          <div class="programme-list">
+            <a href="department.html?dept=aiml"><span><small>02</small> CSE — AI &amp; Machine Learning</span><i aria-hidden="true">↗</i></a>
+            <a href="department.html?dept=ece"><span><small>03</small> Electronics &amp; Communication</span><i aria-hidden="true">↗</i></a>
+            <a href="department.html?dept=eee"><span><small>04</small> Electrical &amp; Electronics</span><i aria-hidden="true">↗</i></a>
+            <a href="department.html?dept=civil"><span><small>05</small> Civil Engineering</span><i aria-hidden="true">↗</i></a>
+            <a href="department.html?dept=ise"><span><small>06</small> Information Science</span><i aria-hidden="true">↗</i></a>
+            <a href="department.html?dept=mechanical"><span><small>07</small> Mechanical Engineering</span><i aria-hidden="true">↗</i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="library-section" id="library">
+        <div class="shell library-section__layout">
+          <div class="library-section__intro"><p class="overline">The learning commons</p><h2>A library built for <em>deep work.</em></h2><p>Find the books, journals, digital resources and quiet corners that help a good question become a great idea.</p><a class="button button--dark" href="library.html">Explore library <span aria-hidden="true">↗</span></a></div>
+          <div class="library-section__features"><article><span>01</span><strong>1000+</strong><p>Print titles across engineering, science and humanities.</p></article><article><span>02</span><strong>Digital first</strong><p>Access e-journals, databases and course resources on campus.</p></article><article><span>03</span><strong>Open daily</strong><p>Spaces designed for focused study, group work and discovery.</p></article></div>
+        </div>
+      </section>
+
+      <section class="story-section" id="academics">
+        <div class="shell story-section__layout">
+          <div class="story-section__media">
+            <img src="https://agadiengcollege.com/wp-content/uploads/2023/10/cse1.jpg" alt="Students collaborating in an engineering lab" />
+            <div class="story-section__stamp"><span>Learn</span><span>Make</span><span>Lead</span></div>
+          </div>
+          <div class="story-section__content">
+            <p class="overline">Learning without limits</p>
+            <h2>Ideas become more powerful when you <em>put them to work.</em></h2>
+            <p>From foundational concepts to practical design, our learning experience brings classrooms, laboratories, industry and community together.</p>
+            <ul>
+              <li><span>01</span> Practice-led learning</li>
+              <li><span>02</span> Faculty-guided exploration</li>
+              <li><span>03</span> A campus built for collaboration</li>
+            </ul>
+            <a class="text-link" href="#campus">Explore the student experience <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="placement-section shell" id="placements">
+        <div class="placement-section__content">
+          <p class="overline">Career ready, from day one</p>
+          <h2>Make your mark<br />where it <em>matters.</em></h2>
+          <p>We connect classroom potential with professional opportunity through placement preparation, industry engagement and an active alumni community.</p>
+          <a class="button button--dark" href="#placement-records">Explore placements <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="recruiter-wall" aria-label="Our recruiters">
+          <span>Our recruiters</span>
+          <div class="recruiter-wall__logos">
+            <a href="https://www.tcs.com/" target="_blank" rel="noopener noreferrer"><img src="https://agadiengcollege.com/wp-content/uploads/2023/11/tcs-removebg-preview-1-1-2.png" alt="TCS" /></a>
+            <a href="https://www.infosys.com/" target="_blank" rel="noopener noreferrer"><img src="https://agadiengcollege.com/wp-content/uploads/2023/11/png-transparent-infosys-logo-and-slogan-thumbnail-removebg-preview-e1700201485604-2.png" alt="Infosys" /></a>
+            <a href="https://www.wipro.com/" target="_blank" rel="noopener noreferrer"><img src="https://agadiengcollege.com/wp-content/uploads/2023/11/wipro-logo-removebg-preview-1-e1700202878155-2.png" alt="Wipro" /></a>
+            <a href="https://www.cognizant.com/" target="_blank" rel="noopener noreferrer"><img src="https://agadiengcollege.com/wp-content/uploads/2023/11/Cognizant_logo-removebg-preview-2.png" alt="Cognizant" /></a>
+            <a href="https://www.mphasis.com/" target="_blank" rel="noopener noreferrer"><img src="https://agadiengcollege.com/wp-content/uploads/2023/11/mphasis-removebg-preview-1-2.png" alt="Mphasis" /></a>
+            <a href="https://www.sonata-software.com/" target="_blank" rel="noopener noreferrer"><img src="https://agadiengcollege.com/wp-content/uploads/2023/11/sonata-software-removebg-preview-e1700201883967-2.png" alt="Sonata Software" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="admission-section" id="admissions">
+        <div class="shell admission-section__inner">
+          <p class="overline">Admissions 2026–27</p>
+          <h2>Your next big idea<br />starts <em>right here.</em></h2>
+          <p>Explore eligibility, programmes and the admission process, then take the next step with confidence.</p>
+          <div class="admission-section__actions">
+            <a class="button button--light" href="#apply">Start your application <span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link--light" href="#admission-process">Admission process <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="campus-section shell" id="campus">
+        <div class="section-heading">
+          <div><p class="overline">Life beyond lectures</p><h2>A campus that feels<br /><em>like possibility.</em></h2></div>
+          <p class="section-heading__copy">A place to make friends, build confidence, try something unexpected, and find the communities that move you forward.</p>
+        </div>
+        <div class="campus-collage">
+          <img class="campus-collage__main" src="https://agadiengcollege.com/wp-content/uploads/2023/10/ise1.jpg" alt="Student activity at SKSVMACET" />
+          <div class="campus-collage__panel"><span>Student<br />life</span><p>Curiosity doesn’t stop at the classroom door.</p><a class="circle-link" href="#student-life" aria-label="Explore student life">↗</a></div>
+          <img class="campus-collage__small" src="https://agadiengcollege.com/wp-content/uploads/2023/10/eee1.jpg" alt="Engineering students at work" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="shell site-footer__top">
+        <div class="footer-brand"><a class="brand brand--footer" href="#top"><img src="https://agadiengcollege.com/wp-content/uploads/2024/02/clg-logo.png" alt="SKSVMACET" /><span class="brand__text"><strong>SKSVMACET</strong><small>Engineering College</small></span></a><p>Gateway to a successful career.</p></div>
+        <div class="footer-links"><div><strong>Explore</strong><a href="#about">About us</a><a href="#programmes">Programmes</a><a href="#placements">Placements</a><a href="#campus">Campus life</a></div><div><strong>Information</strong><a href="#admissions">Admissions</a><a href="#events">News &amp; events</a><a href="#contact">Contact us</a><a href="#alumni">Alumni</a></div></div>
+        <div class="footer-contact"><strong>Stay connected</strong><a href="mailto:info@agadiengcollege.com">info@agadiengcollege.com</a><a href="tel:+919448120344">+91 94481 20344</a><p>Have a question? <a href="#enquire">Talk to us ↗</a></p></div>
+      </div>
+      <div class="shell site-footer__bottom"><span>© <span id="year"></span> SKSVMACET. All rights reserved.</span><span>Designed for a brighter tomorrow.</span><a href="#top">Back to top ↑</a></div>
+    </footer>
+
+    <!-- Legacy static script retained for reference; React is the active frontend. -->
+    </div>
+  </body>
+</html>
